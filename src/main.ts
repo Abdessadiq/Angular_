@@ -17,7 +17,8 @@ if (environment.production) {
  * donc toute la programmation réactive est basé sur la programmation asynchrone
  */
 
-// main.ts il va démarrer puis il va chager un component qui s'appelle appModule
+// main.ts il va charger de démmarer un component qui s'appelle appModule
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch((err) => console.error(err));

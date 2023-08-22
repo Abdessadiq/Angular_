@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 // La classe appModule utilise un décorateur qui s'appelle @NgModule
 // Les décorateur c'est l'équivalant de les annotations dans la programmation java
 @NgModule({
-  // Achaque fois quand je déclare ou quand je crée un web component il va être
+  // Achaque fois quand je déclare ou quand j'ai un web component il va être
   // déclarrer dans cette table de déclaration
   declarations: [AppComponent],
   // A chaque fois qu'on a besoin d'utilisé un composant externe on le déclare dans
